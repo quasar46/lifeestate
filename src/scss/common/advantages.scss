@@ -1,0 +1,29 @@
+.advantages__wrapper {
+    display: flex;
+    margin-bottom: 35px;
+    @media (max-width: 767px) {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.advantages__col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.advantages__name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.advantages__footer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    @media (max-width: 767px) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

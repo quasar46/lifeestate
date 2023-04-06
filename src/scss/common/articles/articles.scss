@@ -1,0 +1,16 @@
+.articles__select {
+    text-align: center;
+    select {
+        color: var(--color-blue);
+        font-weight: 600;
+        font-size: 20px;
+    }
+}
+
+.articles__title {
+    text-align: center;
+}
+
+.articles__wrapper {
+    display: flex;
+}

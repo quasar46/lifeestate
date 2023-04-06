@@ -1,0 +1,37 @@
+.steps__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 70px;
+    @media (max-width: 1279px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.steps__col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    .steps__tabs {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.steps__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.steps__head {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.steps__name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}

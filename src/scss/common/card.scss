@@ -1,0 +1,56 @@
+.card {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.card__pics {
+    position: relative;
+}
+
+.card__content {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card__price {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.card__list {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    gap: 20px;
+    color: rgba(10, 10, 10, 0.75);
+}
+
+.card__btn-gradient {
+    background: linear-gradient(0deg, #68D9BE 0%, rgba(97, 253, 125, 0.1) 100%);
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__time {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(10, 10, 10, 0.75);
+    ;
+}

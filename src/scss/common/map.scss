@@ -1,0 +1,159 @@
+.map {
+    position: relative;
+    display: flex;
+    background-color: #358EF820;
+    // background-image: url("../img/main-map-desktop.svg");
+    // background-size: cover;
+    // background-position: bottom center;
+    height: 400px;
+}
+
+.map__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    // padding-top: 39px;
+    // padding-bottom: 39px;
+    // height: 400px;
+    @media (max-width: 1279px) {
+        justify-content: center;
+    }
+}
+
+.map__wrapper-shadow {
+    @media (max-width: 1279px) {
+        position: absolute;
+        pointer-events: none;
+        bottom: 0;
+        width: 100%;
+        height: 88px;
+        background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+        z-index: 3;
+    }
+}
+
+.map__pictures {
+    @media (max-width: 1279px) {
+        display: none;
+    }
+}
+
+.map__pic {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1920px;
+    height: 400px;
+    height: 100%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
+
+.map__places {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.map__point {
+    position: absolute;
+    background-color: #358EF8;
+    border-radius: 50%;
+    z-index: 100;
+    cursor: pointer;
+
+    span {
+        color: #000;
+        font-weight: 400;
+        position: absolute;
+        right: 100%;
+        left: auto;
+        top: 50%;
+        transform: translateY(-50%);
+        white-space: nowrap;
+        margin-right: 5px;
+    }
+
+    &::after {
+        content: attr(data-count);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 11px;
+        font-weight: 700;
+        color: #fff;
+        position: absolute;
+    }
+}
+
+.on-small {
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+}
+
+.on-medium {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+}
+
+.on-large {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+}
+
+.place-london {
+    top: 100px;
+    right: 910px;
+}
+
+.place-parij {
+    right: 880px;
+    top: 160px;
+}
+
+.place-lazurniy-bereg {
+    right: 808px;
+    top: 219px;
+}
+
+.place-barselona {
+    right: 899px;
+    top: 300px;
+}
+
+.place-alikante {
+    right: 916px;
+    top: 333px;
+}
+
+.place-marbeliya {
+    right: 970px;
+    top: 359px;
+}
+
+.place-albufeira {
+    right: 1018px;
+    top: 321px;
+}
+
+.place-lissabon {
+    right: 1010px;
+    top: 275px;
+}
+
+.place-stambul {
+    right: 557px;
+    top: 269px;
+}

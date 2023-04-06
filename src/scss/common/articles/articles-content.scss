@@ -1,0 +1,32 @@
+.articles-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.articles-content__item {
+    display: flex;
+    gap: 55px;
+    color: #000;
+}
+
+.articles-content__col {
+    display: flex;
+    flex-direction: column;
+}
+
+.articles-content__date {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.articles-content__title {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.articles-content__pic {
+    width: 180px;
+    height: 105px;
+}

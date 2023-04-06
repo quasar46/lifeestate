@@ -1,0 +1,53 @@
+.investment {
+    background-color: #45454505;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    // background-image: url("../img/towers.svg");
+    // background-size: 760px auto;
+    // background-position: right bottom;
+    // background-repeat: no-repeat;
+    @media (max-width: 767px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.investment__back {
+    position: absolute;
+    width: 760px;
+    height: 313px;
+    bottom: -60px;
+    right: 0;
+    z-index: -1;
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+.investment__title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.investment__content {
+    max-width: 525px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.investment__name {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.investment__wrapper {
+    position: relative;
+    // background-image: url("../img/towers.svg");
+    // background-size: 760px auto;
+    // background-position: right calc(100% + 60px);
+    // background-repeat: no-repeat;
+}

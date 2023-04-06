@@ -1,0 +1,52 @@
+.catalog-more {
+    margin-bottom: 20px;
+}
+
+.catalog-more__pic {
+    border-bottom: 1px solid rgba(10, 10, 10, 0.25);
+
+    img {
+        max-width: 230px;
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: -7px;
+    }
+}
+
+.catalog-more__text {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.catalog-more__links {
+    display: flex;
+    gap: 10px;
+}
+
+.catalog-more__show {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.catalog-more__link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.catalog-more__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog-more__title {
+    font-size: 14px;
+    font-weight: 700;
+    // margin-top: 20px;
+    margin-bottom: 5px;
+}

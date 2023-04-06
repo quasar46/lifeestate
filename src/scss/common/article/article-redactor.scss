@@ -1,0 +1,17 @@
+.article-redactor {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    gap: 5px;
+    margin-bottom: 50px;
+}
+
+.article-redactor__name {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.article-redactor__all {
+    font-size: 20px;
+    font-weight: 500;
+}

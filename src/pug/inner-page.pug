@@ -1,0 +1,39 @@
+doctype html
+html(lang="ru")
+    include modules/head
+    body
+        .wrapper-page
+            include modules/header
+            .page
+                .breadcrumbs._container
+                    a(href="index.html") Главная
+                    img(src="img/breadcrumbs-arrow.svg" alt="")
+                    a(href="") Недвижимость за рубежом
+                    img(src="img/breadcrumbs-arrow.svg" alt="")
+                    a Недвижимость в Великобритании
+                .inner-page 
+                    .inner-page__head._container
+                        img(src="img/flag1.svg" alt="").inner-page__flag
+                        .page__title Недвижимость в Великобритании
+                        .inner-page__number-adv Всего <span>323</span> объявления
+                include modules/main-filter-inner
+                include modules/grid-countries
+                include modules/presentation2
+                include modules/banner-slider
+                .catalog._container
+                    include modules/catalog-row
+                    include modules/catalog-row
+                include modules/subscription2
+                include modules/recomendation4
+                include modules/question
+                include modules/team
+                include modules/catalog-more
+                include modules/brief
+                section.feedback.feedback--color2
+                    include modules/forms/feedback-large
+                include modules/countries-list
+
+
+
+            include modules/footer
+        include modules/script

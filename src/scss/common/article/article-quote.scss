@@ -1,0 +1,31 @@
+.article-quote {
+    margin-bottom: 40px;
+}
+
+.article-quote__content {
+    font-size: 24px;
+    font-weight: 500;
+    background-image: url("../img/quotation.svg");
+    padding-left: 50px;
+    background-size: 36px auto;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.article-quote__footer {
+    padding-left: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+.article-quote__worker {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.article-quote__name {
+    font-size: 20px;
+    font-weight: 600;
+}

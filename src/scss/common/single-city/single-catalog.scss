@@ -1,0 +1,29 @@
+.single-catalog__filter {
+    display: flex;
+    @media (max-width: 767px) {
+        font-size: 14px;
+    }
+}
+
+.single-catalog__list {
+    display: flex;
+}
+
+.single-catalog__item {
+    list-style: disc;
+    color: var(--color-blue);
+    margin-left: 30px;
+    cursor: pointer;
+
+    &:first-child {
+        list-style: none;
+    }
+
+    a {
+        @media (max-width: 767px) {
+            span:first-child {
+                display: none;
+            }
+        }
+    }
+}

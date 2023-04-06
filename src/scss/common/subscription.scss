@@ -1,0 +1,120 @@
+.subscription__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #D7E8FE;
+    border-radius: 10px;
+    padding: 40px 30px;
+    position: relative;
+    margin-bottom: 50px;
+    box-shadow: 3px 4px 10px rgba(0, 42, 90, 0.35);
+}
+
+.subscription__link {
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
+.subscription__channels {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    width: 100%;
+}
+
+.subscription__item {
+    position: relative;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    // &:hover {
+    //     .subscription__title {
+    //         color: var(--color-blue);
+    //     }
+    // }
+}
+
+.subscription__pic {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.subscription__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.subscription__name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.subscription__text {
+    max-width: 457px;
+    margin-bottom: 15px;
+}
+
+.subscription__form {
+    background-color: #F6F6F6;
+    padding: 30px;
+    border-radius: 2px;
+    // margin-bottom: 100px;
+}
+
+.subscription__footer {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+
+    input[type="text"] {
+        border: 1px solid rgba(10, 10, 10, 0.15);
+        border-radius: 5px;
+        padding: 0 15px;
+        font-weight: 300;
+        color: rgba(10, 10, 10, 0.5);
+        max-width: 440px;
+        width: 100%;
+    }
+
+    input[type="submit"] {
+        flex: 1 0 auto;
+    }
+}
+
+.subscription__assent {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.subscription__row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+
+    input {
+        padding: 0 15px;
+        border: 1px solid rgba(10, 10, 10, 0.15);
+        border-radius: 5px;
+        flex: 1 0 auto;
+
+        &[type="submit"] {
+            max-width: 281px;
+        }
+
+        &::placeholder {
+            color: rgba(10, 10, 10, 0.5);
+            font-weight: 300;
+        }
+    }
+}

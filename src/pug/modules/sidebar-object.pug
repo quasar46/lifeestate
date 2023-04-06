@@ -1,0 +1,43 @@
+.sidebar
+    .sidebar.sidebar-form 
+        h2.sidebar-form__head Заявка на квартиру в этой новостройке
+        .sidebar-form__user 
+            img.sidebar-form__pic(src="img/feedback-pic.png" alt="")
+            .sidebar-form__post
+                h2.sidebar-form__name Юлия Самохина
+                p.sidebar-form__text Менеджер по продаже недвижимости в Кенсингтоне
+        form(action="" method="post").feedback-form-wrap
+            .feedback-form__inputs
+                input(type="text" placeholder="Имя")
+                input(type="tel" placeholder="Телефон")
+                input(type="mail" placeholder="Email")
+                textarea(placeholder="Комментарий (необязательно)")
+            .social-feedback 
+                h2.social-feedback__title Желаемый способ связи:
+                .social-feedback__wrapper
+                    .social-feedback__item
+                        img(src="img/phone-call2.svg" alt="")
+                        input(type="checkbox" id="input-phone")
+                        label(for="input-phone") Звонок
+                    .social-feedback__item
+                        img(src="img/telegram3.svg" alt="")
+                        input(type="checkbox" id="input-telegram")
+                        label(for="input-telegram") Telegram
+                    .social-feedback__item
+                        img(src="img/viber.svg" alt="")
+                        input(type="checkbox" id="input-viber")
+                        label(for="input-viber") Viber
+                    .social-feedback__item
+                        img(src="img/whatsapp.svg" alt="")
+                        input(type="checkbox" id="input-whatsapp")
+                        label(for="input-whatsapp") WhatsApp
+            input(type="submit" value="Оставить заявку").btn-default
+            .feedback-form__assent Я согласен с <a href="">правилами обработки персональных данных и политикой конфиденциальности LifeEstate</a>
+
+    .sidebar__print 
+        a(href="")
+            img(src="img/printer.svg" alt="")
+            span Распечатать
+        a(href="")
+            img(src="img/pdf.svg" alt="")
+            span Скачать PDF

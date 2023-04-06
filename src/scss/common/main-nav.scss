@@ -1,0 +1,11 @@
+.main-nav {
+    @media (max-width: 1279px) {
+        display: none;
+    }
+}
+
+.main-nav__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}

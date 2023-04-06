@@ -1,0 +1,48 @@
+.two-col {
+    display: flex;
+    gap: 150px;
+    margin-bottom: 30px;
+
+    @media (max-width: 1279px) {
+        gap: 50px;
+    }
+
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+
+.two-col__links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    // flex: 1 0 auto;
+    align-items: flex-start;
+
+    @media (max-width: 767px) {
+        flex-direction: row;
+        width: 100%;
+        overflow: auto;
+        -ms-overflow-style: none;
+        /* IE и Edge */
+        scrollbar-width: none;
+
+        /* Firefox */
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+
+.two-col__link {
+    font-weight: 500;
+    color: rgba(10, 10, 10, 0.75);
+    padding: 5px 15px;
+    white-space: nowrap;
+
+    &.active {
+        color: #fff;
+        background-color: #358EF8;
+        border-radius: 100px;
+    }
+}

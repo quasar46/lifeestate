@@ -1,0 +1,13 @@
+.tab-content {
+    &.hide {
+        display: none;
+    }
+
+    &.show {
+        display: block;
+    }
+}
+
+.tab-btn {
+    cursor: pointer;
+}

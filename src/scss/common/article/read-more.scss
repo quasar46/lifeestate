@@ -1,0 +1,18 @@
+.read-more {
+    padding: 30px;
+    border: 1px solid rgba(10, 10, 10, 0.15);
+    border-radius: 2px;
+}
+
+.read-more__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.read-more__item {
+
+    a {
+        font-weight: 500;
+    }
+}

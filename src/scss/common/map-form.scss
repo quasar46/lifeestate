@@ -1,0 +1,47 @@
+.map-form {
+    background-color: #fff;
+    padding: 13px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 10px rgba(0, 42, 90, 0.15);
+    max-width: 390px;
+    position: relative;
+    z-index: 100;
+}
+
+.map-form__wrapper {
+    border: 1px solid var(--color-blue);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 39px;
+
+    p,
+    input {
+        font-weight: 500;
+        color: #000;
+    }
+
+    p {
+        margin-bottom: 16px;
+    }
+
+    input {
+        margin-bottom: 10px;
+        color: #000;
+        height: 50px;
+        border: 1px solid var(--color-blue);
+        border-radius: 5px;
+        padding: 0 15px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.map-form__title {
+    color: var(--color-blue);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}

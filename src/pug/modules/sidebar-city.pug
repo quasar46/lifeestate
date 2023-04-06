@@ -1,0 +1,24 @@
+.sidebar
+    .sidebar.sidebar-form
+        h2.sidebar-form__head Нужна консультация специалиста?
+        .sidebar-form__user 
+            img.sidebar-form__pic(src="img/feedback-pic.png" alt="")
+            .sidebar-form__post
+                h2.sidebar-form__name Юлия Самохина
+                p.sidebar-form__text Менеджер по продаже недвижимости в MBR City
+        form(action="" method="post").feedback-form-wrap
+            .feedback-form__inputs
+                textarea(placeholder="Например, квартира за рубежом")
+                input(type="text" placeholder="Имя")
+                input(type="tel" placeholder="Телефон")
+                input(type="mail" placeholder="Email")
+            input(type="submit" value="Оставить заявку").btn-default
+            .feedback-form__assent Я согласен с <a href="">правилами обработки персональных данных и политикой конфиденциальности LifeEstate</a>
+
+    .sidebar__print 
+        a(href="")
+            img(src="img/printer.svg" alt="")
+            span Распечатать
+        a(href="")
+            img(src="img/pdf.svg" alt="")
+            span Скачать PDF

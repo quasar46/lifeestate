@@ -1,0 +1,38 @@
+.about-page-numbers {
+    margin-bottom: 40px;
+}
+
+.about-page-numbers__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-page-numbers__wrapper {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 30px;
+    @media (max-width: 1279px) {
+        flex-wrap: wrap;
+    }
+    @media (max-width: 767px) {
+        gap: 10px 20px;
+    }
+}
+
+.about-page-numbers__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page-numbers__number {
+    font-size: 64px;
+    font-weight: 600;
+    @media (max-width: 767px) {
+        font-size: 42px;
+    }
+}
+
+.about-page-numbers__text {
+    margin-bottom: 10px;
+}

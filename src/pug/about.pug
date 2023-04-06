@@ -1,0 +1,74 @@
+doctype html
+html(lang="ru")
+    include modules/head
+    body
+        .wrapper-page
+            include modules/header
+            .page
+                .breadcrumbs._container
+                    a(href="index.html") Главная
+                    img(src="img/breadcrumbs-arrow.svg" alt="")
+                    a О компании
+                .two-col._container
+                    .two-col__links 
+                        a.two-col__link.active О проекте
+                        a.two-col__link(href="reviews.html") Отзывы
+                        a.two-col__link(href="contacts.html") Контакты
+                        a.two-col__link(href="news.html") Новости
+                    .two-col__content
+                        .page__head 
+                            h2.page__title LifeEstate — это международный брокер недвижимости
+                            p.page__subtitle По запросу клиентов мы подбираем недвижимость, а также лучших поставщиков услуг, необходимых для выгодного и безопасного инвестирования за рубежом.
+                        .about-page__content 
+                            ul.about-page__list.about-page-list 
+                                h3.about-page-list__title Мы помогаем по следующим направлениям:
+                                .about-page-list__wrapper
+                                    li.about-page-list__item консультации по стратегии инвестирования
+                                    li.about-page-list__item аудит объекта и юридической чистоты сделки
+                                    li.about-page-list__item выстраивание налоговой структуры
+                                    li.about-page-list__item организация банковского финансирования
+                                    li.about-page-list__item постпродажное обслуживание и управление
+                                    li.about-page-list__item получение ВНЖ в странах Европы и США
+                                    li.about-page-list__item продажа объекта 
+                            .about-page__text-wrapper
+                                p.about-page__text 
+                                    span Мы не посредничаем при сделке, 
+                                    | а напрямую связываем клиентов с нашими зарубежными партнёрами — лучшими агентствами и застройщиками в стране покупки.
+                                p.about-page__text 
+                                    span Мы работаем без дополнительных наценок для клиентов: 
+                                    | если вы покупаете недвижимость с нашей помощью, то цена для вас будет такая же, как если бы вы обратились к зарубежному партнёру напрямую. Это важное условие, зафиксированное в наших договорах со всеми партнёрами.
+                                p.about-page__text 
+                                    span Мы придерживаемся прозрачности в деловых отношениях: 
+                                    | все участники сделки знают свою роль и функции других сторон, имена партнёров и контрагентов всегда открыты для клиентов.
+                            .about-page__message.about-page-message
+                                img.abput-page-message__pic(src="img/director.png" alt="")
+                                .about-page-message__content 
+                                    p.about-page-message__text Мы решили превратить LifeEstate в «мостик» на пути к объекту и стали связывать наших клиентов напрямую с лучшими местными продавцами в том регионе и сегменте рынка, где клиенты интересуются недвижимостью.
+                                    span.about-page-message__footer Из обращения руководителя проекта <br> Георгия Качмазова
+                            .about-page__numbers.about-page-numbers 
+                                span.about-page-numbers__title Сегодня LifeEstate - это:
+                                .about-page-numbers__wrapper 
+                                    .about-page-numbers__item
+                                        span.about-page-numbers__number 150 000
+                                        p.about-page-numbers__text объектов недвижимости
+                                    .about-page-numbers__item
+                                        span.about-page-numbers__number 69
+                                        p.about-page-numbers__text стран
+                                    .about-page-numbers__item
+                                        span.about-page-numbers__number 700
+                                        p.about-page-numbers__text партнеров
+                                    .about-page-numbers__item
+                                        span.about-page-numbers__number 1400
+                                        p.about-page-numbers__text сделок
+                                p.about-page-numbers__text Наши представители работают в Дубае, Стамбуле, Анталии, Афинах, Берлине и Лимассоле.
+                                p.about-page-numbers__text Мы сотрудничаем с крупнейшими мировыми приват-банками, помогая их клиентам инвестировать в недвижимость в разных странах мира, проводим семинары о зарубежной недвижимости для клиентов и сотрудников.
+                            .about-page__what.about-page-what
+                                .about-page-what__circle 
+                                .about-page-what__content 
+                                    span.about-page-what__title Что такое LifeEstate
+                                    p.about-page-what__text LifeEstate — так зовут верного и хитроумного слугу из пьесы Шекспира.LifeEstate, как и его драматургический тёзка,— всегда к вашим услугам в области мировой недвижимости.
+
+
+
+            include modules/footer
+        include modules/script

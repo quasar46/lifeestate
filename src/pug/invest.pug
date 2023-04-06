@@ -1,0 +1,31 @@
+doctype html
+html(lang="ru")
+    include modules/head
+    body
+        .wrapper-page
+            include modules/header
+            .page
+                .breadcrumbs._container
+                    a(href="index.html") Главная
+                    img(src="img/breadcrumbs-arrow.svg" alt="")
+                    a Инвестиции
+                .page__head.page__head--center._container
+                    h1.page__title Инвестиции в зарубежную недвижимость
+                    p.page__subtitle Предлагаем готовые решения и разрабатываем индивидуальные
+                include modules/investment-blocks
+                section.order(style="background-color: #D7E8FE")
+                    include modules/forms/order
+                include modules/variants-investment
+                include modules/presentation
+                include modules/quiz
+                include modules/answers
+                section.feedback.feedback--color1
+                    include modules/forms/feedback-question
+                include modules/answers-2
+                include modules/information
+                include modules/why
+                section.feedback.feedback--color2
+                    include modules/forms/feedback-question
+
+            include modules/footer
+        include modules/script

@@ -1,0 +1,139 @@
+.swiper-pagination-bullet-active {
+    background-color: #FF5F5F;
+}
+
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 7px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #FF5F5F;
+    bottom: 0;
+    top: auto;
+
+    &::after {
+        font-size: 24px;
+    }
+}
+
+.swiper {
+    padding-bottom: 100px;
+
+    @media (max-width: 767px) {
+        padding-bottom: 60px;
+    }
+}
+
+
+.swiper-card {
+    max-width: 290px;
+    width: 100%;
+    padding-bottom: 0;
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        top: 50%;
+
+        &:after {
+            color: #ffffff75;
+
+        }
+    }
+}
+
+.swiper-object {
+    margin-top: 0;
+    padding-bottom: 0;
+
+    .swiper-slide {
+        width: 660px;
+        height: 350px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @media (max-width: 767px) {
+            width: 300px;
+            height: 200px;
+        }
+    }
+}
+
+.ads-block {
+    // .swiper-button-prev {
+    //     top: 50%;
+    //     left: -20px;
+    //     transform: translateY(-50%);
+    //     position: absolute;
+    // }
+
+    .swiper-pagination {
+        top: 0;
+        right: 20px;
+        width: auto;
+        bottom: auto;
+        left: auto;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    // .swiper-button-next {
+    //     top: 50%;
+    //     right: -20px;
+    //     transform: translateY(-50%);
+    //     position: absolute;
+    // }
+}
+
+.swiper-ads {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(10, 10, 10, 0.25);
+}
+
+.banner-swiper {
+    padding-bottom: 45px;
+}
+
+.ads-block .swiper-button-next,
+.banner-slider .swiper-button-next {
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 10;
+
+    @media (max-width: 767px) {
+        right: 0;
+    }
+}
+
+.banner-slider .swiper-button-prev,
+.ads-block .swiper-button-prev {
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 10;
+
+    @media (max-width: 767px) {
+        left: 0;
+    }
+}
+
+.swiper-invest {
+    .swiper-slide {
+        @media (max-width: 1279px) {
+            width: 300px;
+        }
+    }
+}

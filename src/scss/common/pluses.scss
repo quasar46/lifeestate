@@ -1,0 +1,39 @@
+.pluses__wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+
+    @media (max-width: 1279px) {
+        flex-direction: column;
+    }
+}
+
+.pluses__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.pluses__item {
+    span {
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+.pluses__col {
+    background-color: #FCF4EA;
+    padding: 30px 19px;
+    max-width: 390px;
+    width: 100%;
+    flex: 1 0 auto;
+    @media (max-width: 1279px) {
+        max-width: 100%;
+    }
+}
+
+.pluses__list-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

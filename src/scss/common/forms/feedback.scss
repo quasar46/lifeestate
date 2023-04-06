@@ -1,0 +1,148 @@
+.feedback {
+    // margin-top: 175px;
+}
+
+.feedback--color1 {
+    background-color: #FCF4EA;
+}
+
+.feedback--color2 {
+    background-color: #D7E8FE;
+}
+
+.feedback--color3 {
+    background-color: #F6F6F6;
+}
+
+.feedback--color4 {
+    background-color: rgba(69, 69, 69, 0.05);
+}
+
+.feedback__title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.feedback__title-mode {
+    font-size: 36px;
+    font-weight: 600;
+    max-width: 525px;
+    margin-bottom: 15px;
+    @media (max-width: 1279px) {
+        margin-bottom: 0;
+        max-width: 100%;
+    }
+    @media (max-width: 767px) {
+        font-size: 24px;
+    }
+}
+
+.feedback__subtitle {
+    max-width: 525px;
+    margin-bottom: 10px;
+    @media (max-width: 1279px) {
+        margin-bottom: 0;
+        max-width: 100%;
+    }
+    @media (max-width: 767px) {
+        font-size: 16px;
+    }
+}
+
+.feedback__assent {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.feedback__list {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    li {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        @media (max-width: 1023px) {
+            width: calc(50% - 10px);
+        }
+        @media (max-width: 767px) {
+            width: 100%;
+            font-size: 14px;
+        }
+    }
+
+    &--row {
+        flex-direction: row;
+        margin-top: 20px;
+
+        li {
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+    @media (max-width: 1279px) {
+        margin-top: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+.feedback__avatar {
+    margin-bottom: 15px;
+    @media (max-width: 767px) {
+        max-width: 100px;
+    }
+}
+
+.feedback__abs {
+    position: absolute;
+    right: -170px;
+    bottom: 0;
+
+    img {
+        // width: 778px;
+        width: 648px;
+        // height: 635px;
+        height: 501px;
+    }
+    &--mode {
+        left: 0;
+        right: auto;
+    }
+    @media (max-width: 1279px) {
+        display: none;
+    }
+}
+
+.feedback__circle {
+    position: absolute;
+    background-color: white;
+    width: 294px;
+    height: 247px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    padding-left: 50px;
+    // justify-content: center;
+    padding-top: 60px;
+    bottom: -95px;
+    left: 50px;
+    border-radius: 50%;
+
+    span:first-child {
+        font-size: 20px;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    span:last-child {
+        font-style: italic;
+    }
+}

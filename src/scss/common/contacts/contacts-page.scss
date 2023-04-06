@@ -1,0 +1,16 @@
+.contacts-page__requisits {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacts-page__block {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.contacts-page__place {
+    border-bottom: 1px solid #FF5F5F;
+    align-self: flex-start;
+}

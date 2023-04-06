@@ -1,0 +1,29 @@
+.header {
+    background-color: #F5FAFF;
+    padding: 10px 0;
+    box-shadow: 0px 3px 5px rgba(0, 42, 90, 0.1);
+    z-index: 10;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 767px) {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
+
+.header__social {
+    display: flex;
+    gap: 10px;
+}
+
+.header__logo {
+    width: 244px;
+    @media (max-width: 767px) {
+        width: 150px;
+    }
+}

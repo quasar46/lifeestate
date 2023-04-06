@@ -1,0 +1,41 @@
+.feedback-form__head {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.feedback-form__inputs {
+    font-weight: 300;
+    color: #0A0A0A50;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+
+    textarea {
+        height: 100px;
+        padding: 15px;
+        border: 1px solid rgba(10, 10, 10, 0.15);
+        border-radius: 5px;
+        resize: none;
+    }
+
+    input {
+        height: 50px;
+        padding: 0 15px;
+        border: 1px solid rgba(10, 10, 10, 0.15);
+        border-radius: 5px;
+    }
+
+    input[type="submit"] {
+        margin-top: 20px;
+    }
+}
+
+.feedback-form__assent {
+    font-size: 12px;
+
+    a {
+        color: var(--color-blue);
+    }
+}

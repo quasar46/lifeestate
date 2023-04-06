@@ -1,0 +1,213 @@
+.residence-option-info__title {
+    margin-bottom: 20px;
+}
+
+.residence-option p {
+    margin-bottom: 30px;
+
+    @media (max-width: 767px) {
+        margin-bottom: 20px;
+    }
+}
+
+.residence-table-flag i {
+    display: block;
+    position: relative;
+    margin: 5px 11px 0 0;
+    width: 24px;
+    height: 16px;
+    overflow: hidden;
+    border-radius: 1px;
+}
+
+@media (max-width: 767px) {
+    .residence-table-flag i {
+        overflow: visible;
+    }
+}
+
+@media (min-width: 770px) {
+    .residence-table-head {
+        font-size: 12px;
+    }
+}
+
+.residence-table-head {
+    display: none;
+}
+
+@media (min-width: 770px) {
+    .residence-table {
+        display: table;
+    }
+}
+
+@media (min-width: 770px) {
+    .residence-table-head {
+        font-size: 12px;
+    }
+}
+
+
+.residence-table-row {
+    padding: 4px 0 7px;
+    margin: 0 0 22px;
+    box-shadow: inset 0 -1px 0 0 #e7e7e7;
+}
+
+@media (min-width: 770px) {
+    .residence-table-row {
+        display: table-row;
+        width: 704px;
+        padding: 0;
+    }
+}
+
+@media (min-width: 770px) {
+    .residence-table-head .residence-table-cell {
+        padding-top: 6px;
+        padding-bottom: 5px;
+    }
+}
+
+
+.residence-table-flag {
+    float: left;
+}
+
+@media (min-width: 770px) {
+    .residence-table-flag {
+        width: 44px;
+        padding: 14px 0 0;
+    }
+}
+
+@media (min-width: 770px) {
+    .residence-table-cell {
+        display: table-cell;
+        vertical-align: top;
+        padding: 15px 22px 18px 0;
+    }
+}
+
+
+.residence-table-program {
+    margin: 0 0 11px;
+    overflow: hidden;
+}
+
+@media (min-width: 770px) {
+    .residence-table-head .residence-table-budget {
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 770px) {
+    .residence-table-head .residence-table-cell {
+        padding-top: 6px;
+        padding-bottom: 5px;
+    }
+}
+
+@media (min-width: 770px) {
+    .residence-table-cell {
+        display: table-cell;
+        vertical-align: top;
+        padding: 15px 22px 18px 0;
+    }
+}
+
+.residence-table-budget {
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.residence-option-photo {
+    display: none;
+}
+
+@media (min-width: 1231px) {
+    #additional_passport .residence-option-photo {
+        margin: 0 0 6px;
+    }
+}
+
+@media (min-width: 1231px) {
+    .residence-option-photo {
+        display: block;
+        width: 374px;
+        float: right;
+    }
+}
+
+@media (min-width: 1231px) {
+    .residence-option.left-img .residence-option-photo {
+        float: left;
+    }
+}
+
+
+@media (min-width: 1231px) {
+    .residence-option-info {
+        float: left;
+        width: 671px;
+    }
+}
+
+.wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.residence-option {
+    margin: 0 0 22px;
+}
+
+@media (min-width: 770px) {
+    .residence-option {
+        margin: 0 0 77px;
+    }
+}
+
+@media (min-width: 1231px) {
+    .residence-option.left-img .residence-option-info {
+        float: right;
+    }
+}
+
+.residence-table-cell:before {
+    display: block;
+    float: left;
+    content: attr(data-mobile-title);
+    width: 154px;
+}
+
+@media (min-width: 770px) {
+    .residence-table-cell:before {
+        display: none;
+    }
+}
+
+.residence-table-cell:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.residence-table-cell div {
+    overflow: hidden;
+}
+
+.residence-table-flag img {
+    display: block;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.residence-table-program:before {
+    display: none;
+}

@@ -1,0 +1,39 @@
+.information {
+    background-color: #F6F6F6;
+    padding: 60px 0;
+}
+
+.information__wrapper {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+
+}
+
+.information__head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 25px;
+    height: 52px;
+}
+
+.information__title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.information__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px 0;
+    border-top: 1px solid rgba(10, 10, 10, 0.25);
+}
+
+.information__text {
+    color: #000;
+}

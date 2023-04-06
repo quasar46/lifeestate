@@ -1,0 +1,34 @@
+doctype html
+html(lang="ru")
+    include modules/head
+    body
+        .wrapper-page
+            include modules/header
+            .page
+                .breadcrumbs._container
+                    a(href="index.html") Главная
+                    img(src="img/breadcrumbs-arrow.svg" alt="")
+                    a Недвижимость за рубежом
+                .page__head.page__head--center._container
+                    h1.page__title Недвижимость за рубежом
+                    p.page__subtitle Всего <span>139 833</span> объявления
+                include modules/main-filter-inner
+                include modules/grid-countries
+                include modules/buy
+                include modules/popular-location-inner
+                section.catalog._container
+                    include modules/catalog-row
+                    include modules/catalog-row
+                    include modules/catalog-row
+                    include modules/catalog-row
+                    include modules/catalog-row
+                include modules/recomendation2
+                include modules/catalog-more
+                include modules/catalog-more-sub
+                section.feedback.feedback--color1
+                    include modules/forms/feedback-large
+                include modules/countries-list
+
+
+            include modules/footer
+        include modules/script

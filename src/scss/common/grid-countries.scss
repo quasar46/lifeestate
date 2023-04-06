@@ -1,0 +1,106 @@
+.grid-countries {
+    display: grid;
+    grid-gap: 10px 17px;
+    grid-template:
+        "gc1 gc2 gc3 gc3" 180px
+        "gc4 gc4 gc3 gc3" 180px
+        "gc4 gc4 gc5 gc6" 180px
+        "gc7 gc8 gc9 gc9" 180px
+    ;
+
+    @media (max-width: 1023px) {
+        grid-template:
+            "gc1 gc2" 180px
+            "gc3 gc3" 180px "gc4 gc5" 180px
+            "gc6 gc7" 180px
+            "gc6 gc8" 180px
+            "gc9 gc9" 180px
+        ;
+    }
+
+    @media (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.grid-countries__item {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #fff;
+    padding: 15px;
+    gap: 5px;
+
+    @media (max-width: 767px) {
+        height: 200px;
+    }
+}
+
+.grid-counties__pic {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.grid-countries__name {
+    font-size: 32px;
+    font-weight: 600;
+    position: absolute;
+    bottom: 40px;
+    left: 15px;
+
+    @media (max-width: 767px) {
+        font-size: 28px;
+        bottom: 30px;
+    }
+}
+
+.grid-countries__count {
+    font-weight: 300;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.gc1 {
+    grid-area: gc1;
+}
+
+.gc2 {
+    grid-area: gc2;
+}
+
+.gc3 {
+    grid-area: gc3;
+}
+
+.gc4 {
+    grid-area: gc4;
+}
+
+.gc5 {
+    grid-area: gc5;
+}
+
+.gc6 {
+    grid-area: gc6;
+}
+
+.gc7 {
+    grid-area: gc7;
+}
+
+.gc8 {
+    grid-area: gc8;
+}
+
+.gc9 {
+    grid-area: gc9;
+}

@@ -1,0 +1,32 @@
+.buy {
+    background-color: #D7E8FE;
+}
+
+.buy__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url("../img/women.png");
+    background-size: 524px auto;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+
+    @media (max-width: 1023px) {
+        background-position: right -100px bottom;
+    }
+
+    @media (max-width: 767px) {
+        background-image: none;
+    }
+}
+
+.buy__content {
+    max-width: 525px;
+
+    @media (max-width: 1279px) {
+        max-width: 410px;
+    }
+}
+
+.buy__text {
+    margin-bottom: 10px;
+}

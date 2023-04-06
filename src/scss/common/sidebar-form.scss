@@ -1,0 +1,61 @@
+.sidebar-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #F6F6F6;
+    padding: 30px 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(0, 42, 90, 0.35);
+}
+
+.vnj-first-block .sidebar-form {
+    @media (max-width: 1279px) {
+        position: relative;
+
+        &::before {
+            content: "";
+            background-image: url("../img/residence-paris-cover.jpg");
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            width: 1280px;
+            height: calc(100% + 20px);
+            background-size: cover;
+            z-index: -1;
+            transform: translate(-34%, -50%);
+        }
+    }
+}
+
+.sidebar-form__head {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sidebar-form__pic {
+    width: 100px;
+    height: 100px;
+}
+
+.sidebar-form__user {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.sidebar-form__name {
+    font-weight: 600;
+}
+
+
+.sidebar-form__post {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}

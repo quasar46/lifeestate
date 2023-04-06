@@ -1,0 +1,65 @@
+.vnj-info-item {
+    @media (max-width: 1279px) {
+        width: 100%;
+    }
+}
+
+.vnj-info-item__row {
+    display: table-row;
+
+    &--head {
+        @media (max-width: 767px) {
+            display: none;
+        }
+    }
+}
+
+.vnj-info-item__cell {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    display: table-cell;
+    vertical-align: top;
+
+    &--flag {
+        width: 30px;
+    }
+
+    &--program {
+        &::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+    }
+
+    @media (max-width: 767px) {
+        &::before {
+            content: attr(data-mobile-title);
+            display: block;
+            width: 155px;
+        }
+
+
+    }
+}
+
+.vnj-info-item__cell {
+    vertical-align: top;
+    padding: 10px 0;
+    padding-right: 10px;
+    border-bottom: 1px solid rgba(10, 10, 10, 0.25);
+    overflow: hidden;
+
+    &--flag {
+        @media (max-width: 767px) {
+            float: left;
+        }
+    }
+}
+
+.vnj-info-item__price {
+    font-weight: 600;
+    white-space: nowrap;
+}

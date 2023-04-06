@@ -1,0 +1,33 @@
+.map-tabs {
+    display: flex;
+    align-self: flex-start;
+    margin-top: 25px;
+    position: relative;
+    z-index: 100;
+    @media (max-width: 1279px) {
+        display: none;
+    }
+}
+
+.map-tabs__item {
+    color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+    background-color: #fff;
+    min-width: 85px;
+    line-height: 35px;
+    text-align: center;
+
+    &:first-child {
+        border-radius: 5px 0 0 5px;
+    }
+
+    &:last-child {
+        border-radius: 0 5px 5px 0;
+    }
+
+    &.active,
+    &:hover {
+        background-color: var(--color-blue);
+        color: #fff;
+    }
+}

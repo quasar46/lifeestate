@@ -1,0 +1,17 @@
+.top-articles {
+    padding: 30px;
+    background-color: #FCF4EA;
+    margin-bottom: 30px;
+}
+
+.top-articles__list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.top-articles__item {
+    a {
+        font-weight: 500;
+    }
+}

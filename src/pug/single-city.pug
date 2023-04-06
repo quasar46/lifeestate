@@ -1,0 +1,120 @@
+doctype html
+html(lang="ru")
+    include modules/head
+    body
+        .wrapper-page
+            include modules/header
+            .page
+                .breadcrumbs._container
+                    a(href="index.html") Главная
+                    img(src="img/breadcrumbs-arrow.svg" alt="")
+                    a(href="") Недвижимость за рубежом
+                    img(src="img/breadcrumbs-arrow.svg" alt="")
+                    a(href="") ОАЭ
+                    img(src="img/breadcrumbs-arrow.svg" alt="")
+                    a(href="") Дубай
+                    img(src="img/breadcrumbs-arrow.svg" alt="")
+                    a MBR City
+
+                .banner-city._container 
+                    .banner-cty__wrapper 
+                        h2.banner-city__title Вид на жительство в ОАЭ за покупку недвижимости от $205 000
+                        .banner-city__row 
+                            .banner-city__col
+                                img(src="img/passport.svg" alt="")
+                                span ВНЖ на 3-10 лет <br> с продлением
+                            .banner-city__col
+                                img(src="img/law-stamp.svg" alt="")
+                                span  Легально для <br> граждан РФ
+                        button.btn-default Запросить проекты и условия
+                        img.banner-city__pic(src="img/city-objects.svg" alt="")
+                include modules/main-filter-inner
+
+                .single-city._container
+                    h2.page__title.page__title--single-city
+                        span Недвижимость в MBR City
+                        span 19 объявлений
+                    .single-city__action 
+                        .single-city_item
+                            a(href="")
+                                img(src="img/map-pin.svg" alt="")
+                                span Смотреть на карте
+                        .single-city_item
+                            a(href="")
+                                img(src="img/bell.svg" alt="")
+                                span Подписаться на обновления
+                    .single-city__tags.single-city-tags
+                        a.single-city-tags__item(href="")
+                            span Nad Al Sheba
+                            span 18
+                        a.single-city-tags__item(href="")
+                            span Недвижимость от застройщиков
+                            span 5
+                        a.single-city-tags__item(href="")
+                            span Элитная недвижимость
+                            span 4
+
+                .single-catalog._container
+                    .single-catalog__filter 
+                        span Сортировать:
+                        ul.single-catalog__list
+                            li.single-catalog__item
+                                a <span>сначала</span> дешёвые
+                            li.single-catalog__item
+                                a <span>сначала</span> дорогие
+                            li.single-catalog__item
+                                a <span>сначала</span> новые
+
+                .cards._container.wrap
+                    .cards__wrapper
+                        include modules/card
+                        include modules/card
+                        include modules/card
+                        include modules/card
+                        include modules/card
+                        include modules/card
+                        include modules/card
+                        include modules/card
+                        .projects
+                            h2.projects__title Купив недвижимость в Дубае, можно оформить ВНЖ и пользоваться преимуществами резидента
+                            ul.projects__list 
+                                li.projects__item
+                                    img(src="img/passport.svg" alt="")
+                                    span Открыть счет в Дубайском банке и переводить на него до 150 000 $ в месяц из РФ
+                                li.projects__item
+                                    img(src="img/law-stamp.svg" alt="")
+                                    span Без проблем оформлять Шенген или визу в США в Дубайских визовых центрах
+                                li.projects__item
+                                    img(src="img/percent.svg" alt="")
+                                    span Воспользоваться налоговыми льготами для бизнеса
+                            button.btn-default Запросить проекты и условия
+                        include modules/card
+                        include modules/card
+                        include modules/card
+                        include modules/card
+                        .subscription-mini
+                            h2.subscription__title Получайте еженедельную подборку новых объектов
+                            .subscription__row 
+                                input(type="text" placeholder="Электронная почта")
+                                input(type="submit" value="Получать объекты").btn-default 
+                            p.subscription__assent Я согласен с <a href="">правилами обработки персональных данных и политикой конфиденциальности LifeEstate</a>
+                        include modules/card
+                        include modules/card
+                        include modules/card
+                        include modules/card
+                        include modules/subscription-channels
+
+
+                    include modules/sidebar-city
+                section.feedback.feedback--color1
+                    include modules/forms/feedback-question
+                include modules/recomendation4
+                include modules/publication
+                include modules/team
+                section.feedback.feedback--color1
+                    include modules/forms/feedback-large
+                include modules/countries-list
+
+
+            include modules/footer
+        include modules/script

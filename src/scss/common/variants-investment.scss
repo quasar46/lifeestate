@@ -1,0 +1,51 @@
+.variants-investment {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.variants-investment__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 15px;
+    @media (max-width: 1279px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.variants-investment__item {
+    box-shadow: 3px 3px 15px rgba(0, 42, 90, 0.35);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 10px 20px;
+    height: 200px;
+}
+
+.variants-investment__flag {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 30px;
+    height: 20px;
+    background-size: cover;
+}
+
+.variants-investment__descr {
+    margin-top: auto;
+    color: var(--color-blue);
+}
+
+.variants-investment__head {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
+
+.variants-investment__percent {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.variants-investment__text {
+}

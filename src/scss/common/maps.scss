@@ -1,0 +1,30 @@
+.maps__map {
+    height: 400px;
+}
+
+.maps__tabs {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+    width: 100%;
+    overflow: auto;
+    -ms-overflow-style: none;
+    /* IE и Edge */
+    scrollbar-width: none;
+
+    /* Firefox */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    @media (max-width: 767px) {
+        gap: 20px;
+    }
+}
+
+.maps__tab {
+    &.active {
+        padding-bottom: 5px;
+        color: #000;
+        border-bottom: 2px solid #FF5F5F;
+    }
+}

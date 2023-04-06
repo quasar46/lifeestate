@@ -1,0 +1,30 @@
+.about-page-what {
+    display: flex;
+    gap: 15px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.about-page-what__content {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-page-what__circle {
+    max-width: 105px;
+    width: 100%;
+    flex: 1 0 auto;
+    height: 105px;
+    background: #FF5F5F;
+    border-radius: 50%;
+
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+.about-page-what__title {
+    color: var(--color-blue);
+    margin-bottom: 10px;
+}

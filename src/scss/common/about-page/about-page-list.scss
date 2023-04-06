@@ -1,0 +1,27 @@
+.about-page-list {
+    margin-bottom: 20px;
+}
+
+.about-page-list__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about-page-list__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--color-blue);
+}
+
+.about-page-list__item {
+    position: relative;
+    // padding-left: 20px;
+    &::before { 
+        content:"— ";
+        // position: absolute;
+        // left: 0;
+        // top: 0;
+    }
+}

@@ -1,0 +1,51 @@
+.vnj-info {
+    margin-bottom: 175px;
+}
+
+
+.vnj-info__wrapper {
+    display: flex;
+    // flex-direction: column;
+    gap: 100px;
+
+    @media (max-width: 1023px) {
+        gap: 60px;
+    }
+}
+
+.vnj-info__row {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+
+    &:nth-child(2n) {
+        .vnj-info__col:nth-child(1) {
+            order: 1;
+        }
+    }
+
+}
+
+.vnj-info__title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.vnj-info__text {
+    margin-bottom: 30px;
+}
+
+.vnj-info__col:nth-child(2) {
+    min-width: 400px;
+
+    img {
+        width: 100%;
+        height: 400px;
+    }
+
+    @media (max-width: 1279px) {
+        display: none;
+    }
+}

@@ -1,0 +1,21 @@
+.articles-sidebar {
+    flex: 1 0 auto;
+    margin-right: 80px;
+}
+
+.articles-sidebar__item {
+    display: flex;
+    gap: 15px;
+}
+
+.articles-sidebar__text {
+    color: var(--color-blue);
+}
+
+.articles-sidebar__count {
+    color: #000;
+}
+
+.articles-sidebar__count {
+    font-weight: 500;
+}

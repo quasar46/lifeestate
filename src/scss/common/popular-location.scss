@@ -1,0 +1,37 @@
+.popular-location__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px 0;
+    // justify-content: space-between;
+}
+
+.popular-location__item {
+    width: calc(100% / 4);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+        max-width: 30px;
+    }
+
+    @media (max-width: 1279px) {
+        width: calc(100% / 3);
+    }
+
+    @media (max-width: 1023px) {
+        width: 50%;
+    }
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+.popular-location__name {
+    color: #000;
+}
+
+.popular-location__count {
+    color: #0A0A0A50;
+}

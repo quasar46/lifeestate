@@ -1,0 +1,37 @@
+.appart-wrap-maps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.appart-wrap-maps__item {
+    max-width: 255px;
+    width: 100%;
+    flex: 1 0 auto;
+    border-radius: 10px;
+    border: 1px solid rgba(10, 10, 10, 0.15);
+    overflow: hidden;
+
+    img {
+        border-radius: 10px 10px 0px 0px;
+        overflow: hidden;
+        object-fit: cover;
+        width: 100%;
+    }
+    @media (max-width: 767px) {
+        max-width: 100%;
+    }
+}
+
+.appart-wrap-maps__footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    a {
+        font-size: 20px;
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,19 @@
+.publication__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.publication__item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.publication__col {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}

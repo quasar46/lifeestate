@@ -1,0 +1,42 @@
+.feedback-order {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media (max-width: 1279px) {
+        gap: 20px;
+    }
+}
+
+.feedback-order__form {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+    @media (max-width: 1279px) {
+        margin-bottom: 0;
+    }
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+
+.feedback-order__row {
+    display: flex;
+
+    &:first-child {
+        max-width: 390px;
+        width: 100%;
+        flex: 1 0 auto;
+
+        input {
+            width: 100%;
+            height: 50px;
+            padding: 15px;
+            border: 1px solid rgba(10, 10, 10, 0.15);
+            border-radius: 5px;
+            color: rgba(10, 10, 10, 0.5);
+            font-weight: 300;
+        }
+    }
+}

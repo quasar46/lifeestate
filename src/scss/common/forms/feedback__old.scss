@@ -1,0 +1,23 @@
+.feedback {
+    background-color: rgba(69, 69, 69, 0.05);
+    padding: 18px 0;
+
+    &--mode {
+        background-color: #FCF4EA;
+    }
+}
+
+.feedback__col {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback__wrapper {
+    display: flex;
+    gap: 80px;
+}
+
+.feedback__col {
+    display: flex;
+    flex-direction: column;
+}

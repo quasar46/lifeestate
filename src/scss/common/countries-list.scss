@@ -1,0 +1,18 @@
+.countries-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 15px 0;
+    margin-bottom: 50px;
+    @media (max-width: 767px) {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px 0;
+    }
+}
+
+.countries-list__item {
+    font-weight: 700;
+    color: #000;
+    @media (max-width: 767px) {
+        font-size: 14px;
+    }
+}

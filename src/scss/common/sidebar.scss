@@ -1,0 +1,26 @@
+.sidebar {
+    max-width: 390px;
+    width: 100%;
+    flex: 1 0 auto;
+
+}
+
+.sidebar__print {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    border-bottom: 1px solid rgba(10, 10, 10, 0.15);
+    padding-bottom: 15px;
+
+    a {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    span {
+        color: #358EF8;
+        font-weight: 500;
+    }
+}

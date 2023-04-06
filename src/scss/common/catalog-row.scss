@@ -1,0 +1,117 @@
+.catalog-row {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(10, 10, 10, 0.25);
+    margin-bottom: 30px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.catalog-row__head {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+
+    @media (max-width: 767px) {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
+
+.catalog-row__title {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-blue);
+}
+
+.catalog-row__show-all {
+    color: var(--color-blue);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.catalog-row__content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.catalog-row__count {
+    display: flex;
+    gap: 5px;
+}
+
+.catalog-row__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0 14px;
+    padding-bottom: 0;
+}
+
+.catalog-row__item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.catalog-row__pic {
+    position: relative;
+    height: 150px;
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.catalog-row__text {
+    color: var(--color-blue);
+    line-height: 1.16;
+}
+
+.catalog-row__descr {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.catalog-row__strong {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    background: linear-gradient(0deg, #68D9BE 0%, rgba(97, 253, 125, 0.1) 100%);
+    padding-right: 7px;
+    padding-bottom: 1px;
+    align-self: flex-start;
+}
+
+.catalog-row__price {
+    position: absolute;
+    padding: 5px 15px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 700;
+    left: 0;
+    bottom: 10px;
+}
+
+.bonus {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    left: 0;
+    top: 20px;
+    background: linear-gradient(360deg, #68D9BE 5%, #8FFCA0 100%);
+    background-image: url("../img/bonus.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 10px;
+    padding-right: 26px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}

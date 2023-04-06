@@ -1,0 +1,44 @@
+.index-description__wrapper {
+    display: flex;
+    gap: 150px;
+
+    @media (max-width: 1279px) {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.index-description__col {
+    display: flex;
+    flex-direction: column;
+
+    &:nth-child(2) {
+        flex: 1 0 auto;
+    }
+
+    @media (max-width: 767px) {
+        gap: 20px;
+    }
+}
+
+.index-description__header {
+    font-size: 48px;
+    font-weight: 600;
+    color: #0A0A0A;
+    line-height: 1.16;
+    margin-bottom: 10px;
+
+    @media (max-width: 767px) {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+}
+
+.index-description__popular {
+    margin-top: 10px;
+
+    @media (max-width: 767px) {
+        font-size: 12px;
+        margin-top: 0;
+    }
+}

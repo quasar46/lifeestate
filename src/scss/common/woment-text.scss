@@ -1,0 +1,50 @@
+.women-text {
+    background-color: #FCF4EA;
+}
+
+.woment-text__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 525px;
+    width: 100%;
+    flex: 1 0 auto;
+    margin-left: auto;
+    padding: 60px 0;
+    margin-right: 100px;
+}
+
+.woment-text__wrapper {
+    display: flex;
+    align-items: flex-end;
+}
+
+.woment-text__title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.woment-text__text {
+    margin-bottom: 10px;
+
+    &:last-child {
+        margin-bottom: 20px;
+    }
+}
+
+.woment-text__descr {
+    font-weight: 600;
+}
+
+.woment-text__pic {
+    max-width: 435px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    @media (max-width: 1279px) {
+        display: none;
+    }
+}

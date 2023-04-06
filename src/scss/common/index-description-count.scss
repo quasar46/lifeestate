@@ -1,0 +1,24 @@
+.index-description-count {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    @media (max-width: 1279px) {
+        flex-direction: row;
+        // justify-content: space-between;
+    }
+}
+
+.index-description-count__item {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.index-description-count__number {
+    font-size: 48px;
+    font-weight: 500;
+    @media (max-width: 767px) {
+        font-size: 28px;
+    }
+}

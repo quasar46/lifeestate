@@ -1,0 +1,27 @@
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 25px;
+    padding-bottom: 55px;
+    width: 100%;
+    overflow: auto;
+    -ms-overflow-style: none;
+    /* IE и Edge */
+    scrollbar-width: none;
+
+    /* Firefox */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    a {
+        color: #0A0A0A50;
+        white-space: nowrap;
+    }
+
+    @media (max-width: 767px) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

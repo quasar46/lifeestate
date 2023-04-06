@@ -1,0 +1,26 @@
+doctype html
+html(lang="ru")
+    include modules/head
+    body
+        .wrapper-page
+            include modules/header
+            .page 
+                include modules/index-description
+                include modules/map.pug
+                include modules/popular-location
+                include modules/investment
+                include modules/statistic
+                include modules/recomendation
+                include modules/news
+                include modules/reviews-slider
+                include modules/chart
+                include modules/advantages
+                //- include modules/feedback
+                section.feedback.feedback--color4
+                    include modules/forms/feedback-large
+                include modules/programs
+                include modules/countries-list
+
+            include modules/footer
+        include modules/script
+        script(src="js/tabs.js")

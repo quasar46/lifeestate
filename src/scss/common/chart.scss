@@ -1,0 +1,25 @@
+.chart {
+    background-color: #FCF4EA;
+}
+
+.chart__wrapper {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../img/chart.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-top: 60px;
+    padding-bottom: 166px;
+}
+
+.chart__btn {
+    align-self: flex-start;
+}
+
+.chart__descr {
+    max-width: 525px;
+    width: 100%;
+    font-weight: 500;
+    margin-bottom: 20px;
+}

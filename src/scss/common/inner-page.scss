@@ -1,0 +1,15 @@
+.inner-page__head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    margin-bottom: 40px;
+}
+
+.inner-page__flag {
+    width: 50px;
+    height: 30px;
+    object-fit: cover;
+}

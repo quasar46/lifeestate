@@ -1,0 +1,50 @@
+doctype html
+html(lang="ru")
+    include modules/head
+    body
+        .wrapper-page
+            include modules/header
+            .page
+                .breadcrumbs._container
+                    a(href="index.html") Главная
+                    img(src="img/breadcrumbs-arrow.svg" alt="")
+                    a О компании
+                .two-col._container
+                    .two-col__links 
+                        a.two-col__link(href="about.html") О проекте
+                        a.two-col__link(href="reviews.html") Отзывы
+                        a.two-col__link.active Контакты
+                        a.two-col__link(href="news.html") Новости
+                    .two-col__content
+                        .page__head 
+                            h2.page__title Контакты
+                        .contacts-page
+                            .contacts-page__requisits 
+                                .contacts-page__block.contacts-page__place Москва
+                                .contacts-page__block 
+                                    span 107045, Москва, Сретенский бульвар, д. 5, БЦ «Ключ»
+                                    span +7 (495) 545-47-558 
+                                    span (800) 333-10-85 (для России)
+                                    span info@tranio.com
+                                .contacts-page__block 
+                                    span Наши реквизиты:
+                                    span ООО "Транио"
+                                    span ИНН 7705921589
+                                    span КПП 770401001
+                                    span ОГРН 1107746523994
+                                .contacts-page__block 
+                                    span Перед тем, как приехать к нам в офис, пришлите письмо или позвоните, пожалуйста.
+                ._container.contacts-map
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d742.0982888457319!2d23.734879773273143!3d37.97939403470115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd390bcbe071%3A0xed9f27a679e78f9e!2zVmlzc2FyaW9ub3MgNCwgQXRoaW5hIDEwNiA3Miwg0JPRgNC10YbQuNGP!5e0!3m2!1sru!2sru!4v1673271145690!5m2!1sru!2sru" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    .contacts-map__preview
+                        img(src="img/contacts-map-preview.jpg", alt="")
+                        .contacts-map__window 
+                            span Сретенский бульвар
+                            span Москва
+                            a(href="https://goo.gl/maps/hZe3K9aNkgVg33HS7" target="_blank") Посмотреть на Google Картах
+
+
+
+
+            include modules/footer
+        include modules/script

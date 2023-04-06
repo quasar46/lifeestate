@@ -1,0 +1,35 @@
+.feedback-question {
+    position: relative;
+    // overflow: hidden;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &--invert {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        @media (max-width: 1279px) {
+            align-items: flex-start;
+            gap: 20px;
+        }
+    }
+
+    @media (max-width: 1279px) {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.feedback-question__title {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    max-width: 674px;
+}
+
+.feedback-question_subtitle {
+    max-width: 525px;
+    margin-bottom: 10px;
+}

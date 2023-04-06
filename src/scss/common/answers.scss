@@ -1,0 +1,27 @@
+.answers__wrapper {
+    display: flex;
+    gap: 150px;
+    @media (max-width: 1279px) {
+        gap: 40px;
+    }
+    @media (max-width: 1023px) {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+.answers__col {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.answers__item-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.answers__item-text {
+    line-height: 1.16;
+}

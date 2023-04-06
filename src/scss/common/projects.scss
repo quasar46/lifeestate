@@ -1,0 +1,32 @@
+.projects {
+    padding: 30px;
+    background-color: #D7E8FE;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .btn-default {
+        align-self: flex-start;
+    }
+}
+
+.projects__title {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-blue);
+}
+
+.projects__list {
+    display: flex;
+    flex-direction: column;
+    color: #004CA5;
+    gap: 15px;
+}
+
+.projects__item {
+    display: flex;
+    align-items: center;
+    // flex-direction: column;
+    gap: 15px;
+    max-width: 480px;
+}

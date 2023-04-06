@@ -1,0 +1,57 @@
+doctype html
+html(lang="ru")
+    include modules/head
+    body
+        .wrapper-page
+            include modules/header
+            .page
+                .vnj-first-block._container
+                    //- img.vnj-first-block__ellipse(src="img/vnj-ellipse.png" alt="")
+                    .breadcrumbs
+                        a(href="index.html") Главная
+                        img(src="img/breadcrumbs-arrow.svg" alt="")
+                        a ВНЖ и паспорта
+                    .vnj-first-block__wrapper
+                        .vnj-first-block__col
+                            .page__head
+                                h2.page__title Помогаем получить ВНЖ <br> и гражданство за инвестиции
+                                span.page__subtitle.vnj-first-block__subtitle Программы инвестирования в недвижимость 400 000 $205 000 $ <br> или в государственные фонды от 80 000 $.
+                            .vnj-first-block__list 
+                                .vnj-first-block__item
+                                    img(src="img/mountain.svg" alt="")
+                                    a(href="").vnj-first-block__text Гражданство <br> за инвестиции
+                                .vnj-first-block__item
+                                    img(src="img/money.svg" alt="")
+                                    a(href="").vnj-first-block__text ВНЖ ЕС для финансово <br> независимых
+                                .vnj-first-block__item
+                                    img(src="img/building.svg" alt="")
+                                    a(href="").vnj-first-block__text ВНЖ за покупку <br> недвижимости
+                                .vnj-first-block__item
+                                    img(src="img/id-card.svg" alt="")
+                                    a(href="").vnj-first-block__text Гринкарта США <br> за инвестиции
+                        include modules/sidebar-vnj
+
+                section.women-text 
+                    .woment-text__wrapper._container 
+                        .woment-text__pic
+                            img(src="img/women4.png" alt="")
+                        .woment-text__content 
+                            h2.woment-text__title.section__title Мир без границ: помогаем получить второй паспорт
+                            p.woment-text__text Мы предлагаем актуальные программы получения гражданства для инвесторов, заинтересованных в проживании за рубежом и ведении международного бизнеса.
+                            p.woment-text__text Если вас интересуют другие локации — отправьте нам запрос. Мы подберём среди наших проверенных партнёров компанию, которая ведёт данное направление.   
+                            p.woment-text__descr Марина Филичкина, директор по продажам
+
+                include modules/residence-options
+
+
+
+            section.feedback.feedback--color2
+                include modules/forms/feedback-order
+            include modules/pluses
+            include modules/cases
+            include modules/maps
+            section.feedback.feedback--color3
+                include modules/forms/feedback-order
+            include modules/footer
+        include modules/script
+        script(src="js/tabs.js")

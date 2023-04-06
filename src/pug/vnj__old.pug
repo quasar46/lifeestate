@@ -1,0 +1,162 @@
+doctype html
+html(lang="ru")
+    include modules/head
+    body
+        .wrapper-page
+            include modules/header
+            .page
+                .vnj-first-block._container
+                    //- img.vnj-first-block__ellipse(src="img/vnj-ellipse.png" alt="")
+                    .breadcrumbs
+                        a(href="index.html") Главная
+                        img(src="img/breadcrumbs-arrow.svg" alt="")
+                        a ВНЖ и паспорта
+                    .vnj-first-block__wrapper
+                        .vnj-first-block__col
+                            .page__head
+                                h2.page__title Помогаем получить ВНЖ <br> и гражданство за инвестиции
+                                span.page__subtitle.vnj-first-block__subtitle Программы инвестирования в недвижимость от 205 000 $ <br> или в государственные фонды от 80 000 $.
+                            .vnj-first-block__list 
+                                .vnj-first-block__item
+                                    img(src="img/mountain.svg" alt="")
+                                    a(href="").vnj-first-block__text Гражданство <br> за инвестиции
+                                .vnj-first-block__item
+                                    img(src="img/money.svg" alt="")
+                                    a(href="").vnj-first-block__text ВНЖ ЕС для финансово <br> независимых
+                                .vnj-first-block__item
+                                    img(src="img/building.svg" alt="")
+                                    a(href="").vnj-first-block__text ВНЖ за покупку <br> недвижимости
+                                .vnj-first-block__item
+                                    img(src="img/id-card.svg" alt="")
+                                    a(href="").vnj-first-block__text Гринкарта США <br> за инвестиции
+                        include modules/sidebar-vnj
+
+                section.women-text 
+                    .woment-text__wrapper._container 
+                        .woment-text__pic
+                            img(src="img/women4.png" alt="")
+                        .woment-text__content 
+                            h2.woment-text__title.section__title Мир без границ: помогаем получить второй паспорт
+                            p.woment-text__text Мы предлагаем актуальные программы получения гражданства для инвесторов, заинтересованных в проживании за рубежом и ведении международного бизнеса.
+                            p.woment-text__text Если вас интересуют другие локации — отправьте нам запрос. Мы подберём среди наших проверенных партнёров компанию, которая ведёт данное направление.   
+                            p.woment-text__descr Марина Филичкина, директор по продажам
+
+                section.vnj-info
+                    .vnj-info__wrapper._container 
+                        .vnj-info__row
+                            .vnj-info__col
+                                h2.vnj-info__title.section__title Дополнительный паспорт для личных и бизнес-целей
+                                p.vnj-info__text Если вы хотите оформить дополнительный паспорт, мы советуем обратить внимание на программы стран Карибского бассейна, Республики Вануату или Турции. С таким паспортом вы получите мобильность, возможность открывать счета, вести международный бизнес. Гражданство получается один раз и на всю жизнь и его можно передать по наследству.
+                                table.vnj-info__program.vnj-info-item
+                                    .vnj-info-item__row.vnj-info-item__row--head
+                                        .vnj-info-item__cell 
+                                        .vnj-info-item__cell Программа
+                                        .vnj-info-item__cell Бюджет
+                                        .vnj-info-item__cell Оформление
+                                        .vnj-info-item__cell Объект инвестиции
+                                    .vnj-info-item__row
+                                        .vnj-info-item__cell.vnj-info-item__cell--flag 
+                                            img(src="img/flag4.svg" alt="")
+                                        .vnj-info-item__cell.vnj-info-item__cell--program(data-mobile-title="Программа")
+                                            p Турция 
+                                        .vnj-info-item__cell.vnj-info-item__price(data-mobile-title="Бюджет") от 400 000 $
+                                        .vnj-info-item__cell(data-mobile-title="Оформление") от 4 мес.
+                                        .vnj-info-item__cell(data-mobile-title="Объект инвестиции") недвижимость
+                            .vnj-info__col
+                                img(src="img/ellipse-city1.png" alt="")
+                        .vnj-info__row
+                            .vnj-info__col
+                                h2.vnj-info__title.section__title ВНЖ за инвестиции в недвижимость
+                                p.vnj-info__text Покупка недвижимости может дать инвестору право на получение вида на жительство. ВНЖ выдаётся на несколько лет, по некоторым программам доступно продление ВНЖ без ограничения общего срока или подача заявки на гражданство.
+                                table.vnj-info__program.vnj-info-item
+                                    .vnj-info-item__row.vnj-info-item__row--head
+                                        .vnj-info-item__cell
+                                        .vnj-info-item__cell Программа
+                                        .vnj-info-item__cell Гражданство
+                                        .vnj-info-item__cell Бюджет 
+                                        .vnj-info-item__cell Оформление
+                                    .vnj-info-item__row
+                                        .vnj-info-item__cell.vnj-info-item__cell--flag 
+                                            img(src="img/flag4.svg" alt="")
+                                        .vnj-info-item__cell.vnj-info-item__cell--program(data-mobile-title) 
+                                            p Турция 
+                                        .vnj-info-item__cell(data-mobile-title) нет
+                                        .vnj-info-item__cell.vnj-info-item__price(data-mobile-title) от 400 000 $
+                                        .vnj-info-item__cell(data-mobile-title) от 4 мес.
+                            .vnj-info__col
+                                img(src="img/ellipse-city2.png" alt="")
+                        .vnj-info__row
+                            .vnj-info__col
+                                h2.vnj-info__title.section__title ВНЖ в Европе для финансово независимых
+                                p.vnj-info__text Чтобы постоянно жить и путешествовать по Европе достаточно оформить ВНЖ в одной из стран Евросоюза. ВНЖ для финансово независимых иностранцев или удалённых работников даёт право на проживание в стране ЕС, выдавшей карту резидента, и поездки по всем странам шенгена.
+                                table.vnj-info__program.vnj-info-item
+                                    .vnj-info-item__row.vnj-info-item__row--head
+                                        .vnj-info-item__cell
+                                        .vnj-info-item__cell Программа
+                                        .vnj-info-item__cell Гражданство ЕС
+                                        .vnj-info-item__cell Бюджет
+                                        .vnj-info-item__cell Оформление
+                                        .vnj-info-item__cell Объект инвестиции
+                                    .vnj-info-item__row
+                                        .vnj-info-item__cell.vnj-info-item__cell--flag 
+                                            img(src="img/flag4.svg" alt="")
+                                        .vnj-info-item__cell.vnj-info-item__cell--program(data-mobile-title) 
+                                            p ВНЖ Турции для работающих удалённо
+                                        .vnj-info-item__cell(data-mobile-title) нет
+                                        .vnj-info-item__cell.vnj-info-item__price(data-mobile-title) от 400 000 $
+                                        .vnj-info-item__cell(data-mobile-title) от 4 мес.
+                                        .vnj-info-item__cell(data-mobile-title) подтверждённый доход
+                                    .vnj-info-item__row
+                                        .vnj-info-item__cell 
+                                            img(src="img/flag8.svg" alt="")
+                                        .vnj-info-item__cell.vnj-info-item__cell--program(data-mobile-title) 
+                                            p ВНЖ Франции для финансово независимых
+                                        .vnj-info-item__cell(data-mobile-title) да, после 10 лет проживания
+                                        .vnj-info-item__cell.vnj-info-item__price(data-mobile-title) от 80 000 $
+                                        .vnj-info-item__cell(data-mobile-title) 3-6 мес.
+                                        .vnj-info-item__cel(data-mobile-title) подтверждённый капитал и доход
+                            .vnj-info__col
+                                img(src="img/ellipse-city3.png" alt="")
+                        .vnj-info__row
+                            .vnj-info__col
+                                h2.vnj-info__title.section__title Резидентство США
+                                p.vnj-info__text Инвестиционная виза EB-5 даёт право на проживание, работу и ведение бизнеса в США. Инвестор и члены его семьи могут получить гринкарту (ВНЖ) или гражданство США. Из‑за высокого спроса на визы EB-5 есть очередь, альтернативный вариант — получение бизнес-визы E-2 при наличии паспорта Турции или Гренады.
+                                table.vnj-info__program.vnj-info-item
+                                    .vnj-info-item__row.vnj-info-item__row--head
+                                        .vnj-info-item__cell 
+                                        .vnj-info-item__cell Программа
+                                        .vnj-info-item__cell Гражданство США
+                                        .vnj-info-item__cell Бюджет
+                                        .vnj-info-item__cell Оформление
+                                        .vnj-info-item__cell Объект инвестиции
+                                    .vnj-info-item__row
+                                        .vnj-info-item__cell.vnj-info-item__cell--flag 
+                                            img(src="img/flag4.svg" alt="")
+                                        .vnj-info-item__cell.vnj-info-item__cell--program(data-mobile-title) 
+                                            p Инвестиционная программа ЕВ-5
+                                        .vnj-info-item__cell(data-mobile-title) да
+                                        .vnj-info-item__cell.vnj-info-item__price(data-mobile-title) от 400 000 $
+                                        .vnj-info-item__cell(data-mobile-title) от 4 мес.
+                                        .vnj-info-item__cell(data-mobile-title) бизнес-проект в регионе
+                                    .vnj-info-item__row
+                                        .vnj-info-item__cell 
+                                            img(src="img/flag8.svg" alt="")
+                                        .vnj-info-item__cell.vnj-info-item__cell--program(data-mobile-title) 
+                                            p Инвестиционная программа Е-2
+                                        .vnj-info-item__cell(data-mobile-title) да
+                                        .vnj-info-item__cell.vnj-info-item__price(data-mobile-title) от 80 000 $
+                                        .vnj-info-item__cell(data-mobile-title) 3-6 мес.
+                                        .vnj-info-item__cell(data-mobile-title) бизнес-проект
+                            .vnj-info__col
+                                img(src="img/ellipse-city4.png" alt="")
+                section.feedback.feedback--color2
+                    include modules/forms/feedback-order
+                include modules/pluses
+                include modules/cases
+                include modules/maps
+                section.feedback.feedback--color3
+                    include modules/forms/feedback-order
+
+            include modules/footer
+            include modules/script
+            script(src="js/tabs.js")

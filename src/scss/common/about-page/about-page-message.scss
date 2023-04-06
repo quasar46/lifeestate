@@ -1,0 +1,24 @@
+.about-page-message {
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+
+.abput-page-message__pic {
+    width: 105px;
+    height: 105px;
+}
+
+.about-page-message__text {
+    margin-bottom: 20px;
+}
+
+.about-page-message__footer {
+    color: var(--color-blue);
+}
