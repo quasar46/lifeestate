@@ -1,7 +1,4 @@
 @import "global";
-// @import "../fonts/stylesheet.css";
-
-
 @import "common/btn-default.scss";
 @import "common/header.scss";
 @import "common/header-contacts.scss";
@@ -20,10 +17,6 @@
 @import "common/reviews-slider";
 @import "common/chart";
 @import "common/advantages";
-// @import "common/feedback/feedback";
-// @import "common/feedback/feedback-adv.scss";
-// @import "common/feedback/feedback-contacts.scss";
-// @import "common/feedback/feedback-form.scss";
 @import "common/programs.scss";
 @import "common/countries-list";
 @import "common/index-description";
@@ -43,13 +36,10 @@
 @import "common/presentation";
 @import "common/quiz";
 @import "common/answers.scss";
-// @import "common/request.scss";
 @import "common/information";
 @import "common/why";
 @import "common/woment-text";
 @import "common/vnj-first-block";
-// @import "common/vnj-info";
-// @import "common/vnj-info-item";
 @import "common/pluses";
 @import "common/pluses-list.scss";
 @import "common/cases";
@@ -94,8 +84,6 @@
 @import "common/appart/features";
 @import "common/forms/feedback-large.scss";
 @import "common/forms/feedback.scss";
-// @import "common/forms/feedback-adv";
-// @import "common/forms/feedback-contacts";
 @import "common/forms/feedback-form.scss";
 @import "common/forms/feedback-question.scss";
 @import "common/forms/feedback-order.scss";
